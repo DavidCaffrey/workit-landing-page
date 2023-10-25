@@ -112,4 +112,38 @@ textarea:not([rows]) {
 
 .header {
   background-color: var(--clr-Dark-purple);
+  background-image: url("assets/images/bg-pattern-1.svg"),url("assets/images/bg-pattern-2.svg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: top left, bottom right;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+}
+
+/* unvisited link */
+a:link{
+  color: var(--clr-white);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.hero-img-container{
+  width: 50%;
+  margin: auto;
 }
